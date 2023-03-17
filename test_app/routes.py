@@ -5,11 +5,11 @@ from flask import render_template
 @app.route('/')
 @app.route('/index')
 def index():
-    user = {'username': 'Эльдар Рязанов'}
+    user = {'username': 'Батя чё)))'}
     posts = [
         {
-            'author': {'username': 'John'},
-            'body': 'Beautiful day in Portland!'
+            'author': {'username': 'ДонДимон'},
+            'body': 'Съел ЛИМОН!!!!!'
         },
         {
             'author': {'username': 'Susan'},
